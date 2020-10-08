@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     Vector3 dir;
     public float speed = 5;
+    public GameObject explosionFactory;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,9 @@ public class Enemy : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
+        GameObject explosion = Instantiate(explosionFactory);
+        explosion.transform.position = transform.position;
+
         Destroy(other.gameObject);
         Destroy(gameObject);
     }
