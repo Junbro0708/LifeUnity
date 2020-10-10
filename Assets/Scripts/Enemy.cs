@@ -35,6 +35,11 @@ public class Enemy : MonoBehaviour
         GameObject explosion = Instantiate(explosionFactory);
         explosion.transform.position = transform.position;
 
+        GameObject smObject = GameObject.Find("ScoreManager");
+        ScoreManager sm = smObject.GetComponent<ScoreManager>();
+        sm.currentScore++;
+        sm.currentScoreUI.text = "현재 점수 : " + sm.currentScore;
+
         Destroy(other.gameObject);
         Destroy(gameObject);
     }
