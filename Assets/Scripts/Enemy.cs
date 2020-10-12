@@ -44,6 +44,8 @@ public class Enemy : MonoBehaviour
         {
             sm.bestScore = sm.currentScore;
             sm.bestScoreUI.text = "최고 점수 : " + sm.bestScore;
+
+            PlayerPrefs.SetInt("Best Score", sm.bestScore);
         }
 
         Destroy(other.gameObject);

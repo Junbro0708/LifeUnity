@@ -14,7 +14,8 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        bestScore = PlayerPrefs.GetInt("Best Score", 0);
+        bestScoreUI.text = "최고점수 : " + bestScore;
     }
 
     // Update is called once per frame
