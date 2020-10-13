@@ -37,16 +37,8 @@ public class Enemy : MonoBehaviour
 
         GameObject smObject = GameObject.Find("ScoreManager");
         ScoreManager sm = smObject.GetComponent<ScoreManager>();
-        sm.currentScore++;
-        sm.currentScoreUI.text = "현재 점수 : " + sm.currentScore;
-
-        if(sm.currentScore > sm.bestScore)
-        {
-            sm.bestScore = sm.currentScore;
-            sm.bestScoreUI.text = "최고 점수 : " + sm.bestScore;
-
-            PlayerPrefs.SetInt("Best Score", sm.bestScore);
-        }
+        sm.SetScore(sm.GetScore() + 1);
+        
 
         Destroy(other.gameObject);
         Destroy(gameObject);
