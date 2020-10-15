@@ -35,9 +35,7 @@ public class Enemy : MonoBehaviour
         GameObject explosion = Instantiate(explosionFactory);
         explosion.transform.position = transform.position;
 
-        GameObject smObject = GameObject.Find("ScoreManager");
-        ScoreManager sm = smObject.GetComponent<ScoreManager>();
-        sm.SetScore(sm.GetScore() + 1);
+        ScoreManager.Instance.Score++;
         
 
         Destroy(other.gameObject);
