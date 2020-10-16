@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{A8E8D9EF-11DA-5F37-34EF-B88CAE9A3825}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LifeCycle.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMove.cs" Line="24" Column="1" />
       <File FileName="Assets/Scripts/Bullet.cs" />
-      <File FileName="Assets/Scripts/PlayerFire.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Enemy.cs" Line="38" Column="30" />
+      <File FileName="Assets/Scripts/PlayerFire.cs" />
+      <File FileName="Assets/Scripts/Enemy.cs" />
       <File FileName="Assets/Scripts/EnemyManager.cs" />
       <File FileName="Assets/Scripts/DestroyZone.cs" />
       <File FileName="Assets/Scripts/Background.cs" />
       <File FileName="Assets/Scripts/ScoreManager.cs" Line="44" Column="1" />
+      <File FileName="Assets/Scripts/LifeCycle.cs" Line="13" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +17,7 @@
           <Node name="LifeUnity" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="ScoreManager.cs" selected="True" />
+                <Node name="LifeCycle.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -26,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f987c557-12dd-4fe6-bdfb-e72d7fc4f19b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ac7552ce-2c4c-4b99-bab8-bca31d5608ae" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

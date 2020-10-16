@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\DestroyZone.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyManager.cs" />
+    <Compile Include="Assets\Scripts\LifeCycle.cs" />
     <Compile Include="Assets\Scripts\PlayerFire.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
